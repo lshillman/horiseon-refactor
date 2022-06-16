@@ -20,7 +20,7 @@ header h1 {
     font-size: 48px;
 }
 
-header h1 .seo {
+header h1 #seo { /* changed to id since this appears in the header once per page */
     color: #d9dcd6;
 }
 
@@ -109,15 +109,15 @@ aside h3 {
     background-repeat:no-repeat;
 }
 
-.benefit-lead .decorative-icon {
+#benefit-lead .decorative-icon {
     background-image: url("../images/lead-generation.png");
 }
 
-.benefit-brand .decorative-icon {
+#benefit-brand .decorative-icon {
     background-image: url("../images/brand-awareness.png");
 }
 
-.benefit-cost .decorative-icon {
+#benefit-cost .decorative-icon {
     background-image: url("../images/cost-management.png");
 }
 

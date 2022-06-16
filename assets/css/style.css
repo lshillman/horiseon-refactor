@@ -118,10 +118,25 @@ aside {
     text-align: center;
 }
 
-.benefit-lead img {
+.decorative-icon {
     display: block;
     margin: 10px auto;
     max-width: 150px;
+    height:150px;
+    background-size:contain;
+    background-repeat:no-repeat;
+}
+
+.benefit-lead .decorative-icon {
+    background-image: url("../images/lead-generation.png");
+}
+
+.benefit-brand .decorative-icon {
+    background-image: url("../images/brand-awareness.png");
+}
+
+.benefit-cost .decorative-icon {
+    background-image: url("../images/cost-management.png");
 }
 
 .benefit-brand img {

@@ -17,8 +17,22 @@ I mainly replaced non-semantic divs with their semantic equivalents. Along the w
 
 ## Example of semantic code
 
-![a screenshot of semantic code used in this project](./assets/readme/codesample.png)
-
+````javascript
+<!--changed hero from div with background-image to image element-->
+    <img id="hero" src="./assets/images/digital-marketing-meeting.jpg" alt="picture of a diverse team of professionals working at a conference table, with a whiteboard on a tasteful accent wall in the background">
+   
+    <!--changed content div to semantically-correct "main"-->
+    <main>
+        <!--deleted classes that should have been IDs. I'm not targeting these IDs with CSS, but leaving them in case they're useful for anchor links, etc-->
+        <!--changed divs to sections where appropriate-->
+        <section id="search-engine-optimization">
+            <img src="./assets/images/search-engine-optimization.jpg" class="float-left" alt="A notebook on a table showing an illustration of the factors that go into proper SEO." />
+            <h2>Search Engine Optimization</h2>
+            <p>
+                The dominance of mobile internet use means that users are searching for the right business as they travel, shop, or sit on their couch at home. Search Engine Optimization (SEO) allows you to increase your visibility and find the right customers for your business.
+            </p>
+        </section>
+````
 
 ## Screenshot of the live page 
 
